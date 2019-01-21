@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #537979;
+  --color-primary-light: #ACBEBE;
+  --color-secondary: #4F4947;
+  --color-accent: #fcd997;
+  --color-neutral-grey: #EBE9E5;
+
+  --font-primary: "BenchNine", sans-serif;
+  --font-secondary: "Dorsa", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+{% include_relative modules.css %}
+{% include_relative grid.css %}
+{% include_relative type.css %}
+{% include_relative theme.css %}
+{% pattern_css %}
