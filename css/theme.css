@@ -23,9 +23,123 @@ html {
 h1 {
   font-family: var(--font-secondary);
   font-size: 5rem;
+  color: #47413F;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: var(--font-secondary);
+  font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-size: 3.5rem;
+  color: #47413F;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: var(--font-secondary);
   font-size: 3rem;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: var(--font-primary);
+  color: #47413F;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: var(--font-tertriary);
+}
+
+dl, ol, ul {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+dd {
+  font-size: 1rem;
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+q {
+  font-family: var(--font-secondary);
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+ins {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+abbr {
+  text-transform: uppercase;
+}
+
+dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+  color: #ACBEBE;
+}
+
+mark {
+  background-color: #D6D7D6;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+u {
+  text-decoration: underline;
 }
