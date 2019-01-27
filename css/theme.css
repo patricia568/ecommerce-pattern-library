@@ -7,6 +7,7 @@
 
   --font-primary: "BenchNine", sans-serif;
   --font-secondary: "Dorsa", sans-serif;
+  --font-tertriary: "Capitol", sans-serif;
 }
 
 html {
@@ -18,3 +19,13 @@ html {
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 3rem;
+}
