@@ -152,3 +152,8 @@ s {
 u {
   text-decoration: underline;
 }
+
+.btn {
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
+}
