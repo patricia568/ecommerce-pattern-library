@@ -7,7 +7,7 @@
 
   --font-primary: "BenchNine", sans-serif;
   --font-secondary: "Dorsa", sans-serif;
-  --font-tertriary: "Capitol", sans-serif;
+  --font-accent: "Capitol", sans-serif;
 }
 
 html {
@@ -63,7 +63,7 @@ h6 {
 }
 
 a {
-  font-family: var(--font-tertriary);
+  font-family: var(--font-accent);
 }
 
 dl, ol, ul {
