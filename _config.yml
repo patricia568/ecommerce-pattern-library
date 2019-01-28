@@ -6,6 +6,10 @@ patternbot:
   description: A small ecommerce website that sells retro electronics, apparel, music, and movie items.
   font_url: "https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Dorsa"
   font_url: "https://use.typekit.net/mxk0huy.css"
+  colors:
+    background: "--color-primary-light"
+    patterns:
+      brand.logos: "--color-neutral-grey"
   rationales:
     typefaces.primary: |
       BenchNine was selected because it is a simple and clean looking sans-serif typeface that acts as a compliment to the more decorative display fonts.
