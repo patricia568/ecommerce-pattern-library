@@ -11,3 +11,16 @@
   background-color: var(--color-neutral-grey);
   color: var(--color-secondary);
 }
+
+.btn-ghost:hover {
+  background-color: var(--color-primary-light);
+}
+
+.btn-light {
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+}
