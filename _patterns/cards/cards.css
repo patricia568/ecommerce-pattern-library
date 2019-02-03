@@ -1,3 +1,31 @@
 .card {
   width: 30em;
 }
+
+.card-img {
+  position: relative;
+}
+
+.card-img-content {
+  width: 15em;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  top: 40%;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.square-card-img {
+  width: 15em;
+  position: relative;
+}
+
+.square-card-content {
+  position: absolute;
+  bottom: 5%;
+  left: 6%;
+}
