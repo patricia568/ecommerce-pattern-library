@@ -33,22 +33,23 @@ h2 {
 h3 {
   font-family: var(--font-secondary);
   font-size: 3.5rem;
-  color: #47413F;
+  color: #FFF;
   text-transform: uppercase;
   font-weight: 200;
 }
 
 h4 {
   font-family: var(--font-secondary);
-  font-size: 3rem;
-  color: #707070;
+  font-size: 3.5rem;
+  color: #47413F;
   text-transform: uppercase;
   font-weight: 200;
 }
 
 h5 {
   font-family: var(--font-secondary);
-  font-size: 2.25rem;
+  font-size: 3rem;
+  color: #707070;
   text-transform: uppercase;
   font-weight: 200;
 }

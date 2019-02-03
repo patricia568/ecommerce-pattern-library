@@ -1,0 +1,28 @@
+/* home page banner */
+
+.home-banner {
+  position: relative;
+}
+
+.home-banner-content {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  text-align: center;
+  width: 50%;
+}
+
+/* product page banner */
+
+.product-banner {
+  position: relative;
+}
+
+.product-banner-content {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+}
