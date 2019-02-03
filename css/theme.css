@@ -2,7 +2,7 @@
   --color-primary: #537979;
   --color-primary-light: #ACBEBE;
   --color-secondary: #4F4947;
-  --color-accent: #fcd997;
+  --color-accent: rgb(235, 233, 229, 0.5);
   --color-neutral-grey: #EBE9E5;
 
   --font-primary: "bufalino", sans-serif;

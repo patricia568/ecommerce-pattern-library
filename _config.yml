@@ -6,7 +6,7 @@ patternbot:
   description: A small ecommerce website that sells retro electronics, apparel, music, and movie items.
   font_url: "https://use.typekit.net/mxk0huy.css"
   colors:
-    background: "--color-primary-light"
+    background: "--color-neutral-grey"
     patterns:
       brand.logos: "--color-neutral-grey"
   rationales:
