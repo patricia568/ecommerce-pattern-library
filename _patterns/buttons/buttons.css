@@ -5,7 +5,6 @@
   font-family: var(--font-accent);
   border-color: var(--color-accent);
   font-size: 1.3rem;
-  padding-top: 5px;
   padding-bottom: 0;
   padding-left: 40px;
   padding-right: 40px;
@@ -55,5 +54,11 @@
 }
 
 .btn-light:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
+  color: var(--color-primary-light);
+  border-color: var(--color-secondary);
+}
+
+.btn-border-light:hover {
+  border-color: var(--color-accent);
 }
