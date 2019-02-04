@@ -14,8 +14,8 @@ patterns:
   shop:
     title: "Shop Card"
     description: |
-    The "shop" card can be used on several different pages, however, it is primarily used on the main page. This card only includes an image of the product, as well as a button to send the user to that product page.
-  similar-products:
+      The "shop" card can be used on several different pages, however, it is primarily used on the main page. This card only includes an image of the product, as well as a button to send the user to that product page.
+  similar-product:
     title: "Similar Products Card"
     description: |
-    The "similar products" card is mostly used on any product details page. These are located at the bottom of the page, showcasing similar products to the currently viewed product. This card includes an image of the product and a "shop" button.
+      The "similar products" card is mostly used on any product details page. These are located at the bottom of the page, showcasing similar products to the currently viewed product. This card includes an image of the product and a "shop" button.

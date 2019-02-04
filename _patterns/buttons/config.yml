@@ -14,4 +14,4 @@ patterns:
   light:
     title: "Light"
     description: |
-    Light button is used as a submition button for forms. It is a lighter colour, and can be used on a light background (such as the main background) for a subtle contrast.
+      Light button is used as a submition button for forms. It is a lighter colour, and can be used on a light background (such as the main background) for a subtle contrast.

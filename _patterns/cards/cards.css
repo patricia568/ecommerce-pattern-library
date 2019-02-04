@@ -9,7 +9,7 @@
   width: 15em;
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 30%;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
 .square-card-content {
   position: absolute;
   bottom: 5%;
-  left: 30%;
+  left: 20%;
 }
 
 .square-card {
