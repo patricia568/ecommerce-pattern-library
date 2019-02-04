@@ -31,3 +31,16 @@
 .product-card {
   width: 10em;
 }
+
+/* similar product cards */
+
+.similar-card {
+  position: relative;
+  width: 10em;
+}
+
+.similar-card-content {
+  position: absolute;
+  bottom: 5%;
+  left: 18%;
+}
