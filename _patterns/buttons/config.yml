@@ -1,0 +1,17 @@
+title: "Buttons"
+description: |
+  Buttons are used throughout this website to place emphasis on call-to-action links.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default button used to send the user to a particular product or product list page. This button can be used on almost any background image.
+  ghost:
+    title: "Ghost"
+    description: |
+      Ghost button is used for more of an accent. It can be used on lighter backgrounds because of its darker colour to add more contrast. This button is also used for adding items to the user's cart or sumbitting their payment information.
+  light:
+    title: "Light"
+    description: |
+    Light button is used as a submition button for forms. It is a lighter colour, and can be used on a light background (such as the main background) for a subtle contrast.
