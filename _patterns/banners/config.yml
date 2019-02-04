@@ -1,0 +1,13 @@
+title: "Banners"
+description: |
+  Banners are used throughout the website to engage the user and send them to a different part of the website.
+
+patterns:
+  home-banner:
+    title: "Home Page Banner"
+    description: |
+      The "home page banner" showcases an image and a major promotion that the brand is holding at that particular moment. This banner includes a button, which directs the user to the promotional page.
+  product-page-banner:
+    title: "Product Page Banner"
+    description: |
+      The "product page banner" includes a secondary promotion that the brand is holding. This banner only includes text, however, the whole entire banner will link the user to the promotional page.
