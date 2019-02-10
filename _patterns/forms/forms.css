@@ -26,3 +26,17 @@ label {
 .exp-date {
   width: 5em;
 }
+
+.error-message {
+  background-color: var(--color-primary);
+  border: solid .5px #FCD997;
+  width: 20em;
+}
+
+.error-label {
+  color: #FCD997;
+}
+
+.sign-up {
+
+}

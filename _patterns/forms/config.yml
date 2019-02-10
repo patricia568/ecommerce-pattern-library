@@ -1,0 +1,36 @@
+title: "Forms"
+description: |
+
+
+patterns:
+  checkbox-input:
+    title: "Checkbox Input Field"
+    description: |
+
+  multiple-field-input:
+    title: "Multiple Field Input"
+    description: |
+
+  number-input:
+    title: "Number Input Field"
+    description: |
+
+  quantity-select-input:
+    title: "Quantity Input Field"
+    description: |
+
+  search-input:
+    title: "Search Input Field"
+    description: |
+
+  select-input:
+    title: "Select Input Field (drop down)"
+    description: |
+
+  sign-up-input:
+    title: "Email Sign Up Input Field"
+    description: |
+
+  text-input:
+    title: "Text Input Field"
+    description: |
