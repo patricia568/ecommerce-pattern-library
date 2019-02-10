@@ -1,36 +1,44 @@
 title: "Forms"
 description: |
-
+  Forms are used throughout the website for the user to search for products, enter their personal information, or submit an order.
 
 patterns:
   checkbox-input:
     title: "Checkbox Input Field"
     description: |
+      Checkboxes are used in the website to authorize email communication between the brand and the user. This field is not mandatory to check, so there is no error message if left unchecked.
 
   multiple-field-input:
     title: "Multiple Field Input"
     description: |
+      This particular input field is used for multiple input fields such as the credit card expiry date. Only numbers can be inputted, and an error message will appear if filled in incorrectly or not at all on the checkout page.
 
   number-input:
     title: "Number Input Field"
     description: |
+      The number input field is used for multiple input fields that require numbers, such as telephone number and credit card number. Only numbers can be inputted, and an error message will appear if filled in incorrectly or not at all on the checkout page.
 
   quantity-select-input:
     title: "Quantity Input Field"
     description: |
+      The quantity input field is used to determine the quantity of of the product desired by the user. Only 5 number options are available from the dropdown menu, and the field is set at the default of 1.
 
   search-input:
     title: "Search Input Field"
     description: |
+      The search input field allows the user to search for a particular product anywhere on the website.
 
   select-input:
     title: "Select Input Field (drop down)"
     description: |
+      This field allows the user to choose which country they are living in (as an example). Users must choose from the available options from the dropdown menu on the checkout page.
 
   sign-up-input:
     title: "Email Sign Up Input Field"
     description: |
+      This form field allows the user to sign up for promotional offers by inputting their email.
 
   text-input:
     title: "Text Input Field"
     description: |
+      This form field is used for text inputs. This may include home addresses, names, postal codes, etc...

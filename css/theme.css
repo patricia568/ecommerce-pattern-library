@@ -12,6 +12,7 @@
 
 html {
   font-family: var(--font-primary);
+  font-weight: 500;
 }
 
 h1 {
@@ -105,7 +106,7 @@ q {
 
 p {
   font-family: var(--font-primary);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 em {
