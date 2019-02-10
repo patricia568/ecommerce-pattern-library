@@ -18,3 +18,11 @@ input, .form-field {
 label {
   color: var(--color-secondary);
 }
+
+.form-item {
+  height: 2em;
+}
+
+.exp-date {
+  width: 5em;
+}
