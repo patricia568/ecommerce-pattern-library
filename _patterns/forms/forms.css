@@ -7,3 +7,14 @@ input, .form-field {
 .search-label {
   display: none;
 }
+
+.quantity {
+  background-color: var(--color-secondary);
+  color: var(--color-neutral-grey);
+  height: 2em;
+  width: 5em;
+}
+
+label {
+  color: var(--color-secondary);
+}
