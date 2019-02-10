@@ -18,7 +18,7 @@ h1 {
   font-family: var(--font-secondary);
   font-size: 5rem;
   line-height: 5rem;
-  color: #47413F;
+  color: var(--color-secondary);
   text-transform: uppercase;
   font-weight: 200;
 }
@@ -42,7 +42,7 @@ h3 {
 h4 {
   font-family: var(--font-secondary);
   font-size: 3.5rem;
-  color: #47413F;
+  color: var(--color-secondary);
   text-transform: uppercase;
   font-weight: 200;
   line-height: 3rem;
@@ -58,10 +58,10 @@ h5 {
 
 h6 {
   font-family: var(--font-primary);
-  color: #47413F;
   font-weight: 700;
   font-size: 1.2rem;
   text-transform: uppercase;
+  color: var(--color-secondary);
 }
 
 a {

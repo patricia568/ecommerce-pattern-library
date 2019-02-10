@@ -1,0 +1,9 @@
+input, .form-field {
+  background-color: #d6d7d6;
+  border: none;
+  height: 3.2em;
+}
+
+.search-label {
+  display: none;
+}

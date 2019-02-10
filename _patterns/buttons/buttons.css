@@ -63,3 +63,7 @@
 .btn-border-light:hover {
   border-color: var(--color-accent);
 }
+
+.arrow-icon {
+  margin-bottom: 5px;
+}
