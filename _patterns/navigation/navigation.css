@@ -10,3 +10,11 @@ a {
 footer {
   border-top: 2px solid var(--color-primary);
 }
+
+.facebook-icon:hover, .twitter-icon:hover, .instagram-icon:hover {
+  transform: scale(1.5) rotate(360deg);
+  transition: all 800ms linear;
+}
+.facebook-icon, .twitter-icon, .instagram-icon {
+  transition: all 1s linear;
+}
