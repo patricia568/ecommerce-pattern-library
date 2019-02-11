@@ -1,4 +1,4 @@
-input, .form-field {
+input, .form-field, .area-item {
   background-color: #d6d7d6;
   border: none;
   height: 3.2em;
@@ -35,8 +35,4 @@ label {
 
 .error-label {
   color: #FCD997;
-}
-
-.sign-up {
-
 }
