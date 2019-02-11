@@ -13,8 +13,19 @@ footer {
 
 .facebook-icon:hover, .twitter-icon:hover, .instagram-icon:hover {
   transform: scale(1.5) rotate(360deg);
-  transition: all 800ms linear;
 }
 .facebook-icon, .twitter-icon, .instagram-icon {
-  transition: all 1s linear;
+  transition: all 600ms linear;
+}
+
+.page-number-link:hover {
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.left-arrow, .right-arrow {
+  transition: all 600ms linear;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  transform: scale(1.5) rotate(360deg);
 }
