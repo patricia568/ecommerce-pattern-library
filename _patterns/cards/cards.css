@@ -6,24 +6,26 @@
 }
 
 .card-img-content {
-  width: 15em;
+  width: 10em;
   position: absolute;
-  left: 0;
-  top: 30%;
+  left: 10%;
+  top: 25%;
   text-align: center;
 }
 
 /* square cards */
 
 .square-card-content {
-  position: absolute;
   bottom: 5%;
-  left: 20%;
 }
 
-.square-card {
-  position: relative;
-  width: 15em;
+.hover-img {
+  transition: all .2s linear;
+}
+
+.hover-img:hover {
+  filter: sepia(50%);
+  transform: scale(1.1);
 }
 
 /* product cards */
