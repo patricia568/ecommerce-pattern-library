@@ -36,3 +36,26 @@ label {
 .error-label {
   color: #FCD997;
 }
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: #FCD997;
+}
+
+.error-message {
+  display: none;
+  background-color: var(--color-primary);
+  color: #FCD997;
+  border: solid .5px #FCD997;
+  width: 20em;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
