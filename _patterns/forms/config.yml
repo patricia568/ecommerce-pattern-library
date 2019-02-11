@@ -42,3 +42,8 @@ patterns:
     title: "Text Input Field"
     description: |
       This form field is used for text inputs. This may include home addresses, names, postal codes, etc...
+
+  area-input:
+    title: "Text Area Input Field"
+    description: |
+      This form field is used for larger text area inputs. This may include any questions or comments that the user would like to send to the brand for correspondance. This field is not mandatory, and therefore does not require an error message.
