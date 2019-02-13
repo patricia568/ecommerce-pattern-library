@@ -2,11 +2,6 @@
 
 .card {
   width: 30em;
-  background: linear-gradient(to right, rgba(181, 163, 130, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%;
-}
-
-.card-img {
-  z-index: -1;
 }
 
 .card-img-content {
