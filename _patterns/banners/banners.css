@@ -1,21 +1,18 @@
 /* home page banner */
 
 .home-banner {
-  position: relative;
   background: linear-gradient(to right, rgba(181, 163, 130, .7), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 100%, url("../images/home-banner.jpg") no-repeat center top / cover;
   height: 30em;
 }
 
 .home-banner-content {
-  position: absolute;
-  left: 5%;
-  top: 30%;
-  text-align: center;
   width: 50%;
+  left: 3%;
 }
 
 .home-banner-type {
   width: 5em;
+  font-size: 4rem;
 }
 
 /* product page banner */
