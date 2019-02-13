@@ -7,10 +7,8 @@
 
 .card-img-content {
   width: 10em;
-  position: absolute;
-  left: 10%;
-  top: 25%;
   text-align: center;
+  left: 5%;
 }
 
 /* square cards */
@@ -36,13 +34,6 @@
 
 /* similar product cards */
 
-.similar-card {
-  position: relative;
-  width: 10em;
-}
-
 .similar-card-content {
-  position: absolute;
   bottom: 5%;
-  left: 18%;
 }
