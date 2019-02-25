@@ -15,10 +15,22 @@ header {
 .list-nav {
 }
 
+.logo-link {
+  top: -4em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .list-nav {
     display: inline;
+  }
+
+  .icon-label {
+    text-align: left;
+  }
+
+  .music-icon {
+    text-align: right;
   }
 
 }
@@ -31,6 +43,18 @@ header {
 
   .header-link {
     display: inline;
+  }
+
+  .logo-link {
+    top: -5.5em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .logo-link {
+    top: -5em;
   }
 
 }
