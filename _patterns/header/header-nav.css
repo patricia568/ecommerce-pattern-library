@@ -6,6 +6,7 @@ header {
 
 .header-link {
   font-weight: 200;
+  display: none;
 }
 
 .header-nav {
@@ -17,6 +18,18 @@ header {
 @media only screen and (min-width: 38em) {
 
   .list-nav {
+    display: inline;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .header-icon {
+    display: none;
+  }
+
+  .header-link {
     display: inline;
   }
 
