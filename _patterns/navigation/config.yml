@@ -1,0 +1,17 @@
+title: "Navigation"
+description: |
+  Navigation is used throughout the website to help the user nagivate between pages of products and different product categories.
+
+patterns:
+  footer-nav:
+    title: "Footer Navigation"
+    description: |
+      The "footer navigation" is used to direct the user to more informative pages within the website. This also includes external links to the brand's social media pages.
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The "page navigation" is used to direct the user to the different pages of products within the website.
+  section-nav:
+    title: "Section Navigation"
+    description: |
+      The "section navigation" is used to direct the user from one category of products to another.
