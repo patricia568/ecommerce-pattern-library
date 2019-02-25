@@ -1,0 +1,23 @@
+header {
+  border-bottom: 2px solid var(--color-primary);
+  border-top: 2px solid var(--color-primary);
+  margin-top: 4em;
+}
+
+.header-link {
+  font-weight: 200;
+}
+
+.header-nav {
+}
+
+.list-nav {
+}
+
+@media only screen and (min-width: 38em) {
+
+  .list-nav {
+    display: inline;
+  }
+
+}

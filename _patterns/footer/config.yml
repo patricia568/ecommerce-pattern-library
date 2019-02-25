@@ -3,7 +3,7 @@ description: |
   The footer navigation is used at the bottom of every page of the website. This navigation includes secondary links.
 
 patterns:
-  footer-nav:
+  footer:
     title: "Footer Navigation"
     description: |
       The "footer navigation" is used to direct the user to more informative pages within the website. This also includes external links to the brand's social media pages.
