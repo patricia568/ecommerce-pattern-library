@@ -1,7 +1,7 @@
 header {
   border-bottom: 2px solid var(--color-primary);
   border-top: 2px solid var(--color-primary);
-  margin-top: 4em;
+  margin-top: 12em;
 }
 
 .header-link {
@@ -9,28 +9,45 @@ header {
   display: none;
 }
 
-.header-nav {
-}
-
-.list-nav {
+.icon-label {
+  font-family: var(--font-secondary);
 }
 
 .logo-link {
-  top: -4em;
+  top: -14.5em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .icon-label {
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
+
+  header {
+    margin-top: 4em;
+  }
 
   .list-nav {
     display: inline;
   }
 
-  .icon-label {
+  .right-label {
+    text-align: right;
+  }
+
+  .left-label {
     text-align: left;
   }
 
   .music-icon {
     text-align: right;
+  }
+
+  .logo-link {
+    top: -2em;
   }
 
 }
