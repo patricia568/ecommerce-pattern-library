@@ -17,6 +17,23 @@ header {
   top: -14.5em;
 }
 
+.header-icon {
+  transition: all .1s linear;
+}
+
+.header-icon:hover {
+  transform: scale(1.1);
+}
+
+.link {
+  transition: all .1s linear;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 25em) {
 
   .icon-label {
