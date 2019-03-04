@@ -4,7 +4,6 @@
   border-radius: 0;
   font-family: var(--font-accent);
   border-color: var(--color-accent);
-  font-size: 1.3rem;
   padding-bottom: 0;
   padding-left: 40px;
   padding-right: 40px;
@@ -47,7 +46,8 @@
 .btn-light {
   background-color: var(--color-primary-light);
   color: var(--color-secondary);
-  padding-top: 10px;
+  padding-top: .7em;
+  height: 2.6em;
 }
 
 .btn-border-light {
@@ -66,5 +66,4 @@
 }
 
 .arrow-icon {
-  margin-bottom: 5px;
 }
