@@ -20,3 +20,6 @@ patternbot:
       The primary colours are representative of the time period in which most of the items being sold in were popular.
     colors.secondary: |
       The secondary colours act as compliments to the primary colours by being lighter in colour and more muted.
+  layouts:
+    default: |
+    This default layout will be used for every page. It includes the header and footer.
