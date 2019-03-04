@@ -22,4 +22,4 @@ patternbot:
       The secondary colours act as compliments to the primary colours by being lighter in colour and more muted.
   layouts:
     default: |
-    This default layout will be used for every page. It includes the header and footer.
+      This default layout will be used for every page. It includes the header and footer.
