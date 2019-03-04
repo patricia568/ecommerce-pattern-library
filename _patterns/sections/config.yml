@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  Sections will be used throughout the website to divide content such as bodies of text, photos, and other content.
+
+patterns:
+  photo-content-section:
+    title: "Photo Content Section"
+    description: |
+      The "Photo Content Section" is used for descriptive aligning text and photos on the page. For example: on the "about" page.
+  faq:
+    title: "FAQ Section"
+    description: |
+      The "FAQ Section" is used for descriptive lists, such as frequently asked questions, or other informative sections on the website apart from the products.

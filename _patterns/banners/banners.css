@@ -6,26 +6,11 @@
 }
 
 .home-banner-content {
-  width: 50%;
   left: 3%;
 }
 
 .home-banner-type {
   width: 5em;
-  font-size: 4rem;
 }
 
 /* product page banner */
-
-.product-banner {
-  position: relative;
-}
-
-.product-banner-content {
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 50%;
-}
