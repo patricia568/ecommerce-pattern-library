@@ -1,7 +1,14 @@
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
 /* ad cards */
 
 .card {
-  width: 30em;
 }
 
 .card-img-content {
