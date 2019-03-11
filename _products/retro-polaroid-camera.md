@@ -8,3 +8,4 @@ price: 115
 colors:
   - "Black"
 weight: "7"
+---
