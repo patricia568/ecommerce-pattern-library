@@ -1,3 +1,8 @@
 section {
   margin-top: 2em;
 }
+
+#quantity {
+  background-color: var(--color-secondary);
+  color: var(--color-neutral-grey);
+}
