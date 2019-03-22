@@ -7,6 +7,13 @@ patterns:
     title: "Basic"
     description: |
       Default button used to send the user to a particular product or product list page. This button can be used on almost any background image.
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/electronics/"
   ghost:
     title: "Ghost"
     description: |

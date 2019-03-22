@@ -11,3 +11,7 @@ patterns:
     title: "FAQ Section"
     description: |
       The "FAQ Section" is used for descriptive lists, such as frequently asked questions, or other informative sections on the website apart from the products.
+  details:
+    title: "Product Details Section"
+    description: |
+      The "Product Details Section" is used for product descriptions. This can be found on the product details page.

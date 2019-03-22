@@ -14,10 +14,24 @@ patterns:
       - name: image
         type: string
         example: "retro-radio.jpg"
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
   product:
     title: "Product Card"
     description: |
       The "product" card is used on the product list page. These cards include an image of the product, a decription/title underneath, and the price of the product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   shop:
     title: "Shop Card"
     description: |

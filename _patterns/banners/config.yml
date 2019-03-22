@@ -7,6 +7,15 @@ patterns:
     title: "Home Page Banner"
     description: |
       The "home page banner" showcases an image and a major promotion that the brand is holding at that particular moment. This banner includes a button, which directs the user to the promotional page.
+    fields:
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
   product-page-banner:
     title: "Product Page Banner"
     description: |
