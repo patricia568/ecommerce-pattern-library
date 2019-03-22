@@ -4,7 +4,9 @@
       <div class="embed embed-2by3 relative">
         <img class="hover-img embed-item img-flex similar-card-img" src="/images/camera.jpg" alt="">
         <div class="pin-cb similar-card-content">
-          {% pattern buttons/ghost text="Shop" url="/electronics/" %}
+          {% if include.button_url%}
+            {% pattern buttons/ghost text=include.button_text url=include.button_url %}
+          {% endif %}
         </div>
       </div>
     </a>

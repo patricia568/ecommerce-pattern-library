@@ -27,6 +27,15 @@ patterns:
     title: "Search Input Field"
     description: |
       The search input field allows the user to search for a particular product anywhere on the website.
+    fields:
+      - name: button_text
+        type: string
+        example: "Search"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
 
   select-input:
     title: "Select Input Field (drop down)"
@@ -37,6 +46,15 @@ patterns:
     title: "Email Sign Up Input Field"
     description: |
       This form field allows the user to sign up for promotional offers by inputting their email.
+    fields:
+      - name: button_text
+        type: string
+        example: "Sign up"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
 
   text-input:
     title: "Text Input Field"

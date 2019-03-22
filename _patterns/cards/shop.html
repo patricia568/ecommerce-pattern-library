@@ -6,7 +6,9 @@
           <img class="hover-img embed-item img-flex square-card-img" src="/images/{{include.image}}" alt="">
         </div>
         <div class="square-card-content pin-cb">
-          {% pattern buttons/basic text="Shop Now" url="/electronics/" %}
+          {% if include.button_url%}
+            {% pattern buttons/basic text=include.button_text url=include.button_url %}
+          {% endif %}
         </div>
       </a>
     </div>
