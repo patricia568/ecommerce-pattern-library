@@ -18,7 +18,32 @@ patterns:
     title: "Ghost"
     description: |
       Ghost button is used for more of an accent. It can be used on lighter backgrounds because of its darker colour to add more contrast. This button is also used for adding items to the user's cart or sumbitting their payment information.
+    fields:
+      - name: text
+        type: string
+        example: "Shop"
+      - name: url
+        type: url
+        example: "/electronics/"
   light:
     title: "Light"
     description: |
       Light button is used as a submition button for forms. It is a lighter colour, and can be used on a light background (such as the main background) for a subtle contrast.
+    fields:
+      - name: text
+        type: string
+        example: "Sign Up"
+      - name: url
+        type: url
+        example: "/electronics/"
+  search:
+    title: "Search"
+    description: |
+      A search button is used at the top of every page accompanying a search bar to allow the user to search for particular items throughout the website.
+    fields:
+      - name: text
+        type: string
+        example: "Search"
+      - name: url
+        type: url
+        example: "/electronics/"

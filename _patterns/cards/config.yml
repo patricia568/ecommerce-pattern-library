@@ -14,24 +14,10 @@ patterns:
       - name: image
         type: string
         example: "retro-radio.jpg"
-      - name: button_text
-        type: string
-        example: "Shop Now"
-        required: false
-      - name: button_url
-        type: url
-        example: "/electronics/"
-        required: false
   product:
     title: "Product Card"
     description: |
       The "product" card is used on the product list page. These cards include an image of the product, a decription/title underneath, and the price of the product.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: "site.products[0]"
-          type: Product
   shop:
     title: "Shop Card"
     description: |
@@ -40,7 +26,24 @@ patterns:
       - name: image
         type: string
         example: "polaroid.jpg"
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
   similar-product:
     title: "Similar Products Card"
     description: |
       The "similar products" card is mostly used on any product details page. These are located at the bottom of the page, showcasing similar products to the currently viewed product. This card includes an image of the product and a "shop" button.
+    fields:
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/electronics/"
+        required: false
