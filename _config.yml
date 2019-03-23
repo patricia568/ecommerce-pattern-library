@@ -24,11 +24,10 @@ patternbot:
     default: |
       This default layout will be used for every page. It includes the header and footer.
     product: |
-      This layout will be used for the [roduct listing page.
+      This layout will be used for the product listing page.
   collections:
     products:
       output: true
-
   defaults:
     - scope:
         path: _products

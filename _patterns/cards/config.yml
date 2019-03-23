@@ -38,7 +38,7 @@ patterns:
         required: false
       - name: button_url
         type: url
-        example: "/electronics/"
+        example: "/products/"
         required: false
   similar-product:
     title: "Similar Products Card"
@@ -51,5 +51,5 @@ patterns:
         required: false
       - name: button_url
         type: url
-        example: "/electronics/"
+        example: "/products/"
         required: false
