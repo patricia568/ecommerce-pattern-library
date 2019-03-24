@@ -16,3 +16,7 @@ highlight_nav: electronics
   </div>
 
 </div>
+
+{% for product in site.products %}
+  {% pattern cards/product data=product %}
+{% endfor %}

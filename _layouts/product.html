@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
 <h1>{{page.title}}</h1>
 <p>{{page.description}}</p>
 <img src="{{page.image}}" alt="">
-
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}

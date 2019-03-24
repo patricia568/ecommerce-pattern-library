@@ -1,5 +1,5 @@
 ---
-name: "Crosley Record Player"
+name: "record player"
 description: |
   Listen to all of your favourite records on this Crosley Record Player.
 image: "/images/product-record-player.jpg"
