@@ -1,5 +1,5 @@
 ---
-layout: product
+layout: default
 highlight_nav: electronics
 ---
 <div class="grid max-length push">
@@ -14,9 +14,11 @@ highlight_nav: electronics
   <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1 xl-1 push-1-2">
     {% pattern banners/product-page-banner %}
   </div>
+  <div class="unit">
+    {% pattern navigation/section-nav %}
+  </div>
+  {% for product in site.products %}
+    {% pattern cards/product data=product %}
+  {% endfor %}
 
 </div>
-
-{% for product in site.products %}
-  {% pattern cards/product data=product %}
-{% endfor %}
