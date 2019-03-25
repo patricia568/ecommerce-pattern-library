@@ -1,10 +1,10 @@
-<header class="">
-  <nav class="header-nav wrapper relative">
+<header role="banner">
+  <nav class="header-nav wrapper relative" role="navigation">
     <div class="relative">
       <ul class="list-nav list-group text-center push-0 grid grid-middle">
         <li class="unit xs-1-2 s-1-2 m-1-2 l-1-6 xl-1-6 {% if page.highlight_nav == 'electronics' %}current{% endif %}">
-          <a class="header-link icon-link" href="/products/"><h4 class="link push-0 tenakilo">Electronics</h4></a>
-          <a class="icon-link header-icon grid grid-middle" href="/products/">
+          <a class="header-link icon-link" href="/products/" aria-label="Navigate to the Electronics page"><h4 class="link push-0 tenakilo">Electronics</h4></a>
+          <a class="icon-link header-icon grid grid-middle" href="/products/" aria-label="Navigate to the Electronics page">
             <i class="icon i-96 electronics-icon unit xs-1 s-1 m-1-2">
               <svg><use xlink:href="/images/icons.svg#electronics" /></svg>
             </i>
@@ -12,8 +12,8 @@
           </a>
         </li>
         <li class="unit xs-1-2 s-1-2 m-1-2 l-1-6 xl-1-6 {% if page.highlight_nav == 'music' %}current{% endif %}">
-          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo">Music</h4></a>
-          <a class="icon-link header-icon grid grid-middle" href="#">
+          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo" aria-label="Navigate to the Music page">Music</h4></a>
+          <a class="icon-link header-icon grid grid-middle" href="#" aria-label="Navigate to the Music page">
             <i class="icon i-96 music-icon unit xs-1 s-1 m-1-2 unit-push-m-1-2">
             <svg><use xlink:href="/images/icons.svg#music" /></svg>
             </i>
@@ -23,8 +23,8 @@
         <li class="unit xs-1 s-1 m-1 l-1-3 xl-1-3">
         </li>
         <li class="unit xs-1-2 s-1-2 m-1-2 l-1-6 xl-1-6 {% if page.highlight_nav == 'movies' %}current{% endif %}">
-          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo">Movies</h4></a>
-          <a class="icon-link header-icon grid grid-middle" href="#">
+          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo" aria-label="Navigate to the Movies page">Movies</h4></a>
+          <a class="icon-link header-icon grid grid-middle" href="#" aria-label="Navigate to the Movies page">
             <i class="icon i-96 movies-icon unit xs-1 s-1 m-1-2">
               <svg><use xlink:href="/images/icons.svg#movies" /></svg>
             </i>
@@ -32,8 +32,8 @@
           </a>
         </li>
         <li class="unit xs-1-2 s-1-2 m-1-2 l-1-6 xl-1-6 {% if page.highlight_nav == 'apparel' %}current{% endif %}">
-          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo">Apparel</h4></a>
-          <a class="icon-link header-icon grid grid-middle" href="#">
+          <a class="header-link icon-link" href="#"><h4 class="link push-0 tenakilo" aria-label="Navigate to the Apparel page">Apparel</h4></a>
+          <a class="icon-link header-icon grid grid-middle" href="#" aria-label="Navigate to the Apparel page">
             <i class="icon i-96 apparel-icon unit xs-1 s-1 m-1-2 unit-push-m-1-2">
               <svg><use xlink:href="/images/icons.svg#apparel" /></svg>
             </i>
@@ -41,7 +41,7 @@
           </a>
         </li>
       </ul>
-      <a class="logo-link icon-link pin-ct" href="#">
+      <a class="logo-link icon-link pin-ct" href="#" aria-label="Navigate to the home page">
         <i class="icon i-256 logo">
           <img src="/images/logo-256.svg" alt="Logo of The Retro brand">
         </i>
