@@ -1,5 +1,6 @@
 ---
 layout: default
+highlight_nav: electronics
 ---
 <div class="grid max-length push">
   <div class="unit xs-1 s-1 m-5-6 l-5-6 xl-5-6">
@@ -8,13 +9,27 @@ layout: default
   <div class="unit xs-1 s-1 m-1-6 l-1-6 xl-1-6">
     {% pattern buttons/cart %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1 ">
-  {% pattern sections/details %}
+  <div class="push-2 unit xs-1 s-1 m-1 l-1 xl-1 ">
+    {% pattern sections/details %}
+  </div>
+</div>
 
+<div class="push">
   {% pattern sections/subheadings text="Similar Products" %}
+</div>
 
 
-  {% pattern cards/similar-product %}
-  {% pattern cards/similar-product %}
-  {% pattern cards/similar-product %}
-  {% pattern cards/similar-product %}
+<div class="grid push-2">
+  <div class="unit xs-1-2">
+    {% pattern cards/similar-product %}
+  </div>
+  <div class="unit unit-xs-hidden unit-s-hidden">
+    {% pattern cards/similar-product %}
+  </div>
+  <div class="unit unit-xs-hidden unit-s-hidden unit-m-hidden">
+    {% pattern cards/similar-product %}
+  </div>
+  <div class="unit xs-1-2">
+    {% pattern cards/similar-product %}
+  </div>
+</div>
