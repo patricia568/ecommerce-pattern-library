@@ -1,6 +1,8 @@
 <div class="home-banner relative">
   <div class="home-banner-content pin-lc text-center">
     <h1 class="home-banner-type tenamega">Extra 20% off sale items</h1>
-    {% pattern buttons/basic text="Check it out" url="/products/" %}
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>
