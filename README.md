@@ -26,3 +26,15 @@ The following link with lead the user to the published website.
 
 1.
 https://suspicious-clarke-dd7b70.netlify.com/pattern-library/#brand
+
+---
+
+## Copyright Notice
+
+©Danochristos 2019
+
+---
+
+## Collaborators
+
+- [@maddycpierce] (https://github.com/maddycpierce)
