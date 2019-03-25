@@ -35,11 +35,9 @@ patterns:
       - name: button_text
         type: string
         example: "Shop Now"
-        required: false
       - name: button_url
         type: url
         example: "/products/"
-        required: false
   similar-product:
     title: "Similar Products Card"
     description: |
@@ -47,9 +45,7 @@ patterns:
     fields:
       - name: button_text
         type: string
-        example: "Shop Now"
-        required: false
+        example: "Shop"
       - name: button_url
         type: url
         example: "/products/"
-        required: false

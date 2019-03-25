@@ -15,3 +15,11 @@ patterns:
     title: "Product Details Section"
     description: |
       The "Product Details Section" is used for product descriptions. This can be found on the product details page.
+  subheadings:
+    title: "Subheadings"
+    description: |
+      The subheadings section is used for secondary titles for content on pages.
+    fields:
+      - name: text
+        type: string
+        example: "Similar Products"

@@ -10,12 +10,10 @@ patterns:
     fields:
       - name: button_text
         type: string
-        example: "Shop Now"
-        required: false
+        example: "Check it Out"
       - name: button_url
         type: url
         example: "/electronics/"
-        required: false
   product-page-banner:
     title: "Product Page Banner"
     description: |
