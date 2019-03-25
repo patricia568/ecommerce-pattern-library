@@ -1,3 +1,9 @@
+## Pattern Library for The Retro
+
+This website is an ecommerce website for retro electronics.
+
+---
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
