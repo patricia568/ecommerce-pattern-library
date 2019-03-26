@@ -43,6 +43,9 @@ patterns:
     description: |
       The "similar products" card is mostly used on any product details page. These are located at the bottom of the page, showcasing similar products to the currently viewed product. This card includes an image of the product and a "shop" button.
     fields:
+      - name: image
+        type: string
+        example: "camera.jpg"
       - name: button_text
         type: string
         example: "Shop"
