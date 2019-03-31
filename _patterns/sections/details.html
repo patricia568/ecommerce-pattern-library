@@ -1,55 +1,44 @@
 <div class="grid wrapper">
-  <ol class="unit xs-1 s-1 m-1 l-1 xl-1 list-group-inline">
-    <li class="push-r">
-      <a class="icon-link" href="#" aria-label="Navigate back to the products list page">
-        <i class="icon i-20 arrow-icon left-arrow">
-          <svg><use xlink:href="/images/icons.svg#left-arrow" /></svg>
-        </i>
-      </a>
-    </li>
-    <li class="push-r">
-      <a class="page-number-link icon-link" href="#" aria-label="Navigate back to the products list page">
-        <span class="icon-label">BACK</span>
-      </a>
-    </li>
-  </ol>
-  <h1 class="text-center unit xs-1 s-1 m-1 l-1 xl-1 tena">Crosley Record Player</h1>
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+    {% pattern navigation/back %}
+  </div>
+  <h1 class="text-center unit xs-1 s-1 m-1 l-1 xl-1 tena">{{include.header}}</h1>
   <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-4 l-1-4 xl-1-4">
         <div class="grid">
           <div class="island-1-4 unit xs-1-4 s-1-4 m-1 l-1 xl-1">
-            <img class="img-flex" src="/images/record-close-up-1.jpg" alt="">
+            <img class="img-flex" src="/images/{{include.image}}" alt="">
           </div>
           <div class="island-1-4 unit xs-1-4 s-1-4 m-1 l-1 xl-1">
-            <img class="img-flex" src="/images/record-close-up-2.jpg" alt="">
+            <img class="img-flex" src="/images/{{include.image-2}}" alt="">
           </div>
           <div class="island-1-4 unit xs-1-4 s-1-4 m-1 l-1 xl-1">
-            <img class="img-flex" src="/images/record-close-up-3.jpg" alt="">
+            <img class="img-flex" src="/images/{{include.image-3}}" alt="">
           </div>
           <div class="island-1-4 unit xs-1-4 s-1-4 m-1 l-1 xl-1">
-            <img class="img-flex" src="/images/record-close-up-4.jpg" alt="">
+            <img class="img-flex" src="/images/{{include.image-4}}" alt="">
           </div>
         </div>
       </div>
       <div class="unit xs-1 s-1 m-3-4 l-3-4 xl-3-4">
         <div class="island-1-4">
-          <img class="img-flex" src="/images/product-record-player.jpg" alt="">
+          <img class="img-flex" src="/images/{{include.product-image}}" alt="">
         </div>
       </div>
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-1-4">
     <div class="push">
-      <h6 class="push-0">Record Player</h6>
-      <p>$99.99</p>
+      <h6 class="push-0">{{include.title}}</h6>
+      <p>{{include.text}}</p>
     </div>
     <div class="push">
-      <h6 class="push-0">Colour</h6>
-      <p>WHITE</p>
+      <h6 class="push-0">{{include.title-2}}</h6>
+      <p>{{include.text-2}}</p>
     </div>
     <div class="push">
-      <h6 class="push-0">Quantity</h6>
+      <h6 class="push-0">{{include.title-3}}</h6>
       <select id="quantity" name="quantity" class="form-item form-field push-1-4">
         <option label="SELECT"></option>
         <option>1</option>
@@ -62,8 +51,8 @@
       </p>
     </div>
     <div class="push">
-      <h6 class="push-0">Product Description</h6>
-      <p>Listen to all of your favourite records on this Crosley Record Player.</p>
+      <h6 class="push-0">{{include.title-4}}</h6>
+      <p>{{include.text-4}}</p>
     </div>
     <div class="">
       {% pattern buttons/ghost text="Add to Cart" url="/electronics/" %}

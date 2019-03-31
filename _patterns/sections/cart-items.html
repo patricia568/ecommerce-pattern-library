@@ -1,0 +1,23 @@
+<div class="grid wrapper">
+  <div class="unit xs-1 s-1-3 m-1-5 l-1-5 xl-1-5 island-1-4">
+    <img class="img-flex" src="/images/{{include.image}}" alt="">
+  </div>
+  <div class="unit xs-1-2 s-1-3 m-1-5 l-1-5 xl-1-5 island-1-4">
+    <h6 class="kilo bold uppercase">{{include.title}}</h6>
+    <p class="">{{include.text}}</p>
+    <h6 class="kilo bold uppercase">{{include.title-2}}</h6>
+    <p class="uppercase">{{include.text-2}}</p>
+  </div>
+  <div class="unit xs-1-2 s-1-3 m-1-5 l-1-5 xl-1-5 island-1-4">
+    <h6 class="kilo bold uppercase">{{include.title-3}}</h6>
+    <p class="">{{include.text-3}}</p>
+  </div>
+  <div class="unit xs-1-2 s-1-3 unit-offset-s-1-3 m-1-5 l-1-5 xl-1-5 island-1-4">
+    {% pattern forms/quantity-select-input text="QUANTITY" %}
+  </div>
+  <div class="unit xs-1-2 s-1-3 m-1-5 l-1-5 xl-1-5 island-1-4">
+    <h6 class="kilo bold uppercase">{{include.title-4}}</h6>
+    <p class="push-2">{{include.text-4}}</p>
+    <p class="total-price pad-t bold">{{include.text-5}}</p>
+  </div>
+</div>

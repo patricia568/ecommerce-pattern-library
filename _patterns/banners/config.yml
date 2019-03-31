@@ -8,6 +8,9 @@ patterns:
     description: |
       The "home page banner" showcases an image and a major promotion that the brand is holding at that particular moment. This banner includes a button, which directs the user to the promotional page.
     fields:
+      - name: text
+        type: string
+        example: "Extra 20% off sale items"
       - name: button_text
         type: string
         example: "Check it Out"
@@ -18,3 +21,13 @@ patterns:
     title: "Product Page Banner"
     description: |
       The "product page banner" includes a secondary promotion that the brand is holding. This banner only includes text, however, the whole entire banner will link the user to the promotional page.
+    fields:
+      - name: text
+        type: string
+        example: "Extra 20% off sale items"
+      - name: text-2
+        type: string
+        example: "Cassettes"
+      - name: image
+        type: string
+        example: "product-page-banner.jpg"

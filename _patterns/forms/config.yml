@@ -7,21 +7,37 @@ patterns:
     title: "Checkbox Input Field"
     description: |
       Checkboxes are used in the website to authorize email communication between the brand and the user. This field is not mandatory to check, so there is no error message if left unchecked.
+    fields:
+      - name: text
+        type: string
+        example: "I want to receive emails about new promotions and deals!"
 
   multiple-field-input:
     title: "Multiple Field Input"
     description: |
       This particular input field is used for multiple input fields such as the credit card expiry date. Only numbers can be inputted, and an error message will appear if filled in incorrectly or not at all on the checkout page.
+    fields:
+      - name: text
+        type: string
+        example: "Expiry Date"
 
   number-input:
     title: "Number Input Field"
     description: |
       The number input field is used for multiple input fields that require numbers, such as telephone number and credit card number. Only numbers can be inputted, and an error message will appear if filled in incorrectly or not at all on the checkout page.
+    fields:
+      - name: text
+        type: string
+        example: "Phone Number"
 
   quantity-select-input:
     title: "Quantity Input Field"
     description: |
       The quantity input field is used to determine the quantity of of the product desired by the user. Only 5 number options are available from the dropdown menu, and the field is set at the default of 1.
+    fields:
+      - name: text
+        type: string
+        example: "QUANTITY"
 
   search-input:
     title: "Search Input Field"
@@ -31,16 +47,21 @@ patterns:
       - name: button_text
         type: string
         example: "Search"
-        required: false
       - name: button_url
         type: url
         example: "/electronics/"
-        required: false
+      - name: text
+        type: string
+        example: "Search"
 
   select-input:
     title: "Select Input Field (drop down)"
     description: |
       This field allows the user to choose which country they are living in (as an example). Users must choose from the available options from the dropdown menu on the checkout page.
+    fields:
+      - name: text
+        type: string
+        example: "Country"
 
   sign-up-input:
     title: "Email Sign Up Input Field"
@@ -50,18 +71,27 @@ patterns:
       - name: button_text
         type: string
         example: "Sign up"
-        required: false
       - name: button_url
         type: url
         example: "/electronics/"
-        required: false
+      - name: text
+        type: string
+        example: "Sign up for emails"
 
   text-input:
     title: "Text Input Field"
     description: |
       This form field is used for text inputs. This may include home addresses, names, postal codes, etc...
+    fields:
+      - name: text
+        type: string
+        example: "E-mail address"
 
   area-input:
     title: "Text Area Input Field"
     description: |
       This form field is used for larger text area inputs. This may include any questions or comments that the user would like to send to the brand for correspondance. This field is not mandatory, and therefore does not require an error message.
+    fields:
+      - name: text
+        type: string
+        example: "Comments or Questions"
