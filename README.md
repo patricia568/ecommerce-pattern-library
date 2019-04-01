@@ -44,3 +44,4 @@ https://suspicious-clarke-dd7b70.netlify.com/pattern-library/#brand
 ## Collaborators
 
 - [@maddycpierce] (https://github.com/maddycpierce)
+- [@michaelqian1995] (https://github.com/michaelqian1995)
