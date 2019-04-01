@@ -1,6 +1,35 @@
 ---
 layout: default
+highlight_nav: electronics
 ---
-<h1>{{page.title}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<div class="grid max-length push">
+  <div class="unit xs-1 s-1 m-5-6 l-5-6 xl-5-6">
+    {% pattern forms/search-input %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-6 l-1-6 xl-1-6">
+    {% pattern buttons/cart %}
+  </div>
+  <div class="push-2 unit xs-1 s-1 m-1 l-1 xl-1 ">
+    {% pattern sections/details header=page.name image=page.image image-2=page.image image-3=page.image image-4=page.image product-image=page.image title="Record Player" text=page.price title-2="Colour" text-2=page.colors title-3="Quantity" title-4="Product Description" text-4=page.description %}
+  </div>
+</div>
+
+<div class="push">
+  {% pattern sections/subheadings text="Similar Products" %}
+</div>
+
+
+<div class="grid push-2 gutter-2">
+  <div class="gutter-1-4 unit xs-1-2 m-1-3 l-1-4 xl-1-4">
+    {% pattern cards/similar-product image="camera.jpg" button_text="Shop" button_url="/products/" %}
+  </div>
+  <div class="gutter-1-4 unit unit-xs-hidden unit-s-hidden m-1-3 l-1-4 xl-1-4">
+    {% pattern cards/similar-product image="product-type-writer.jpg" button_text="Shop" button_url="/products/" %}
+  </div>
+  <div class="gutter-1-4 unit unit-xs-hidden unit-s-hidden unit-m-hidden l-1-4 xl-1-4">
+    {% pattern cards/similar-product image="product-radio.jpg" button_text="Shop" button_url="/products/" %}
+  </div>
+  <div class="gutter-1-4 unit xs-1-2 s-1-2 m-1-3 l-1-4 xl-1-4">
+    {% pattern cards/similar-product image="product-canon.jpg" button_text="Shop" button_url="/products/" %}
+  </div>
+</div>
