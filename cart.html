@@ -14,20 +14,42 @@ layout: default
   <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="First Name" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="Last Name" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="Home Address" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="Postal Code" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="Country" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
     {% pattern forms/text-input text="City" %}
   </div>
+</div>
 
+<div>
+  {% pattern sections/subheadings text="Payment Information" %}
+</div>
+
+<div class="grid island">
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+    {% pattern forms/text-input text="Name On Credit Card" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+    {% pattern forms/text-input text="Credit Card Number" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+    {% pattern forms/text-input text="Expiration Date" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2">
+    {% pattern forms/text-input text="CVC" %}
+  </div>
+</div>
+
+<div class="text-center pad-b-2">
+{% pattern buttons/ghost text="CONFIE ORDER" url="/electronics/" %}
 </div>
