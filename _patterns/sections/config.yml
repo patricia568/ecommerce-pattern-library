@@ -7,14 +7,89 @@ patterns:
     title: "Photo Content Section"
     description: |
       The "Photo Content Section" is used for descriptive aligning text and photos on the page. For example: on the "about" page.
+    fields:
+      - name: image
+        type: string
+        example: "volkswagen.jpg"
+      - name: title
+        type: string
+        example: "About"
+      - name: text
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   faq:
     title: "FAQ Section"
     description: |
       The "FAQ Section" is used for descriptive lists, such as frequently asked questions, or other informative sections on the website apart from the products.
+    fields:
+      - name: title
+        type: string
+        example: "How long will it take for my order to ship?"
+      - name: text
+        type: string
+        example: "Normally, it takes about 1 business day to process your order. After that, it will be shipped and on its way to you!"
+      - name: title-2
+        type: string
+        example: "How much does shipping usually cost?"
+      - name: text-2
+        type: string
+        example: "Shipping domestically (Canada) will cost a flat rate of $5.00."
+      - name: title-3
+        type: string
+        example: "Am I able to return items?"
+      - name: text-3
+        type: string
+        example: "We offer refunds and exchanges upon the request of customers with reasonable justifications."
+      - name: title-4
+        type: string
+        example: "What's the best way to reach a customer service representative?"
+      - name: text-4
+        type: string
+        example: "We encourage you to email us, or call us. We don't particularily have a preference!"
   details:
     title: "Product Details Section"
     description: |
       The "Product Details Section" is used for product descriptions. This can be found on the product details page.
+    fields:
+      - name: header
+        type: string
+        example: "Crosley Record Player"
+      - name: image
+        type: string
+        example: "record-close-up-1.jpg"
+      - name: image-2
+        type: string
+        example: "record-close-up-2.jpg"
+      - name: image-3
+        type: string
+        example: "record-close-up-3.jpg"
+      - name: image-4
+        type: string
+        example: "record-close-up-4.jpg"
+      - name: product-image
+        type: string
+        example: "product-record-player.jpg"
+      - name: title
+        type: string
+        example: "Record Player"
+      - name: text
+        type: string
+        example: "$99.99"
+      - name: title-2
+        type: string
+        example: "Colour"
+      - name: text-2
+        type: string
+        example: "WHITE"
+      - name: title-3
+        type: string
+        example: "Quantity"
+      - name: title-4
+        type: string
+        example: "Product Description"
+      - name: text-4
+        type: string
+        example: "Listen to all of your favourite records on this Crosley Record Player."
   subheadings:
     title: "Subheadings"
     description: |
@@ -23,3 +98,46 @@ patterns:
       - name: text
         type: string
         example: "Similar Products"
+  headings:
+    title: "Headings"
+    description: |
+      The headings section is used for primary titles for content on pages.
+    fields:
+      - name: text
+        type: string
+        example: "Product Details"
+  cart-items:
+    title: "Cart Items"
+    description: |
+      The "cart items" section is an area of the website that shows a summary of the users cart items. This section will be found in the "cart" page.
+    fields:
+      - name: title
+        type: string
+        example: "Description"
+      - name: text
+        type: string
+        example: "Listen to all of your favourite records on this Crosley Record Player."
+      - name: title-2
+        type: string
+        example: "Colour"
+      - name: text-2
+        type: string
+        example: "White"
+      - name: title-3
+        type: string
+        example: "Item Price"
+      - name: text-3
+        type: string
+        example: "$99.99"
+      - name: title-4
+        type: string
+        example: "Price"
+      - name: text-4
+        type: string
+        example: "$99.99"
+      - name: text-5
+        type: string
+        example: "$99.99"
+      - name: image
+        type: string
+        example: "product-record-player.jpg"

@@ -6,3 +6,8 @@ section {
   background-color: var(--color-secondary);
   color: var(--color-neutral-grey);
 }
+
+.total-price {
+  border-top: solid 1px var(--color-primary);
+  display: inline-block;
+}

@@ -11,3 +11,29 @@ patterns:
     title: "Section Navigation"
     description: |
       The "section navigation" is used to direct the user from one category of products to another.
+    fields:
+      - name: text
+        type: string
+        example: "Electronics"
+      - name: text-2
+        type: string
+        example: "CD Players"
+      - name: text-3
+        type: string
+        example: "Record Players"
+      - name: text-4
+        type: string
+        example: "Cassette Players"
+      - name: text-5
+        type: string
+        example: "Stereos"
+      - name: text-6
+        type: string
+        example: "Polaroid Cameras"
+      - name: text-7
+        type: string
+        example: "Film Cameras"
+  back:
+    title: "Back to Previous Page"
+    description: |
+      This navigation item is used to direct the user to the previous page.
