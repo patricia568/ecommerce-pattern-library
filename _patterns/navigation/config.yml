@@ -37,3 +37,7 @@ patterns:
     title: "Back to Previous Page"
     description: |
       This navigation item is used to direct the user to the previous page.
+    fields:
+      - name: url
+        type: url
+        example: "/products/"

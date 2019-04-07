@@ -7,3 +7,7 @@ patterns:
     title: "Header Navigation"
     description: |
       The "header navigation" is used to direct the user to the major pages within the website. This also includes product pages, and the checkout page.
+    fields:
+      - name: url
+        type: url
+        example: "/index/"
