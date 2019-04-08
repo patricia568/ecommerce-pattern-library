@@ -51,74 +51,56 @@ layout: default
 
   {% pattern sections/faq text="We may employ third party companies and individuals to facilitate our Service (“Service Providers”), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used." text-2="These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose." %}
 
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-      {% pattern sections/headings text="Analytics" %}
+  {% pattern sections/headings text="Analytics" %}
 
-      <h6 class="text-center">We may use third-party Service Providers to monitor and analyze the use of our Service.</h6>
-    </div>
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
+  <h6 class="text-center">We may use third-party Service Providers to monitor and analyze the use of our Service.</h6>
 
-      {% pattern sections/faq title="Service" %}
-
-      <div class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Facebook page">
-            <i class="icon i-48 facebook-icon">
-              <svg><use xlink:href="/images/icons.svg#facebook-social" /></svg>
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Twitter page">
-            <i class="icon i-48 twitter-icon">
-              <svg><use xlink:href="/images/icons.svg#twitter-social" /></svg>
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Facebook page">
-            <i class="icon i-48 facebook-icon">
-              <svg><use xlink:href="/images/icons.svg#facebook-social" /></svg>
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Twitter page">
-            <i class="icon i-48 twitter-icon">
-              <svg><use xlink:href="/images/icons.svg#twitter-social" /></svg>
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Facebook page">
-            <i class="icon i-48 facebook-icon">
-              <svg><use xlink:href="/images/icons.svg#facebook-social" /></svg>
-            </i>
-          </a>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push-1-4">
-          <a class="icon-link" href="#" aria-label="Navigate to the company Twitter page">
-            <i class="icon i-48 twitter-icon">
-              <svg><use xlink:href="/images/icons.svg#twitter-social" /></svg>
-            </i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-      {% pattern sections/faq title="Analytics" text="cookies and usage data" text-2="cookies and usage data" text-3="cookies and usage data" text-4="cookies and usage data" text-5="email address" text-6="email address, name, credit card" %}
-    </div>
-
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-      {% pattern sections/faq title="Platform" text="Facebook Inc., USA" text-2="Twitter Inc., USA" text-3="Pinterest Inc., USA" text-4="Google Inc., USA" text-5="The Rocket Science Group Inc., USA" text-6="PayPal Inc., USA" %}
-    </div>
-
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
-      {% pattern sections/faq title="Privacy Policy" text="(http://www.facebook.com/privacy/explanation.php)" text-2="(http://twitter.com/privacy)" text-3="(http://about.pinterest.com/privacy/)" text-4="(http://www.google.com/intl/en/policies/privacy/)" text-5="(http://mailchimp.com/legal/privacy/)" text-6="(https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside)" %}
-    </div>
-  </div>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Service</th>
+        <th scope="col">Analytics</th>
+        <th scope="col">Platform</th>
+        <th scope="col">Privacy Policy</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>**Facebook Like button and social widgets**</td>
+      <td>cookies and usage data</td>
+      <td>Facebook Inc., USA</td>
+      <td>(http://www.facebook.com/privacy/explanation.php)</td>
+    </tr>
+    <tr>
+      <td>**Twitter Tweet button and social widgets**</td>
+      <td>cookies and usage data</td>
+      <td>Twitter Inc., USA</td>
+      <td>(http://twitter.com/privacy)</td>
+    </tr>
+    <tr>
+      <td>**Pinterest “Pin it” button and social widgets**</td>
+      <td>cookies and usage data</td>
+      <td>Pinterest Inc., USA</td>
+      <td>(http://about.pinterest.com/privacy/)</td>
+    </tr>
+    <tr>
+      <td>**Google Analytics**</td>
+      <td>cookies and usage data</td>
+      <td>Google Inc., USA</td>
+      <td>(http://www.google.com/intl/en/policies/privacy/)</td>
+    </tr>
+    <tr>
+      <td>**MailChimp email address management service**</td>
+      <td>email address</td>
+      <td>The Rocket Science Group Inc., USA</td>
+      <td>(http://mailchimp.com/legal/privacy/)</td>
+    </tr>
+    <tr>
+      <td>**PayPal Standard Checkout**</td>
+      <td>email address, name, credit card</td>
+      <td>PayPal Inc., USA</td>
+      <td>(https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside)</td>
+    </tr>
+  </table>
 
   {% pattern sections/headings text="Links to Other Sites" %}
 
