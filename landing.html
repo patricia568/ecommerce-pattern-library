@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="wrapper grid">
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+    {% pattern banners/product-page-banner text="40% off Turntables" image="banner-2.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+    {% pattern cards/shop image="polaroid.jpg" button_text="Take me there" button_url="/products/" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+    {% pattern cards/shop image="polaroid.jpg" button_text="Take me there" button_url="/products/" %}
+  </div>
+  <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com" class="unit xs-1 s-1 m-1 l-1 xl-1">
+    <fieldset>
+      <div class="push-1-2">
+        {% pattern forms/sign-up-input button_text="Sign up" button_url="/electronics/" text="Sign up for emails" %}
+      </div>
+      {% pattern forms/checkbox-input text="I want to receive emails about new promotions and deals!" %}
+    </fieldset>
+  </form>
+</div>
