@@ -13,50 +13,50 @@ layout: default
   {% pattern sections/cart-items title="Description" text="Listen to all of your favourite records on this Crosley Record Player." title-2="Colour" text-2="White" title-3="Item Price" text-3="$99.99" title-4="Price" text-4="$99.99" text-5="$99.99" image="product-record-player.jpg" %}
 </div>
 
-<div>
-  {% pattern sections/subheadings text="Shipping Information" %}
-</div>
+<form method="POST" action="https://formspree.io/dano0015@algonquinlive.com" class="grid island wrapper">
+  <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1">
+    <legend>{% pattern sections/subheadings text="Shipping Information" %}</legend>
+    <div class="grid">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="First Name" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="Last Name" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="Home Address" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="Postal Code" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/select-input text="Country" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="City" %}
+      </div>
+    </div>
+  </fieldset>
 
-<div class="grid island wrapper">
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="First Name" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="Last Name" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="Home Address" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="Postal Code" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/select-input text="Country" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="City" %}
-  </div>
-</div>
+  <fieldset class="unit xs-1 s-1 m-1 l-1 xl-1">
+    <legend>{% pattern sections/subheadings text="Payment Information" %}</legend>
+    <div class="grid">
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="Name On Credit Card" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
+        {% pattern forms/number-input text="Credit Card Number" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
+        {% pattern forms/text-input text="CVC" %}
+      </div>
+      <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
+        {% pattern forms/multiple-field-input text="Expiry Date" %}
+      </div>
+    </div>
+  </fieldset>
 
-<div>
-  {% pattern sections/subheadings text="Payment Information" %}
-</div>
-
-<div class="grid island wrapper">
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="Name On Credit Card" %}
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center pad-b-2">
+    {% pattern buttons/submit text="Confirm Order" %}
   </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
-    {% pattern forms/number-input text="Credit Card Number" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
-    {% pattern forms/text-input text="CVC" %}
-  </div>
-  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] gutter-1-2 push">
-    {% pattern forms/multiple-field-input text="Expiry Date" %}
-  </div>
-</div>
-
-<div class="text-center pad-b-2">
-{% pattern buttons/ghost text="Confirm Order" url="/electronics/" %}
-</div>
+</form>

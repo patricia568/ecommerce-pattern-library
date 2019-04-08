@@ -47,3 +47,11 @@ patterns:
       - name: url
         type: url
         example: "/electronics/"
+  submit:
+    title: "Submit"
+    description: |
+      Submit button used to submit the user's checkout form information / orders.
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
