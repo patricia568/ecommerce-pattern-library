@@ -45,3 +45,7 @@ tr:nth-child(even) {
 td {
   color: var(--color-secondary);
 }
+
+fieldset {
+  display: none;
+}
