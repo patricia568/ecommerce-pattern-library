@@ -25,9 +25,23 @@ section {
 }
 
 .title-row {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
+  border-top: solid 5px var(--color-primary-light);
+  border-bottom: solid 5px var(--color-primary-light);
 }
 
 .table-title {
   color: var(--color-neutral-grey);
+}
+
+tr {
+  border-bottom: solid 3px var(--color-primary);
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-primary-light);
+}
+
+td {
+  color: var(--color-secondary);
 }
