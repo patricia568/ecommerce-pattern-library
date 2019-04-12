@@ -11,3 +11,23 @@ section {
   border-top: solid 1px var(--color-primary);
   display: inline-block;
 }
+
+.promo-banner {
+  background-color: var(--color-primary);
+  border-top: solid 5px var(--color-secondary);
+  border-bottom: solid 5px var(--color-secondary);
+}
+
+.promo-text {
+  color: var(--color-neutral-grey);
+  border-top: solid 5px var(--color-primary-light);
+  border-bottom: solid 5px var(--color-primary-light);
+}
+
+.title-row {
+  background-color: var(--color-secondary);
+}
+
+.table-title {
+  color: var(--color-neutral-grey);
+}

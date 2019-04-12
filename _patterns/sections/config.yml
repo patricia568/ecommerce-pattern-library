@@ -173,3 +173,100 @@ patterns:
       - name: text
         type: string
         example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  promotional-banner:
+    title: "Promotional Banner"
+    description: |
+      The "Promotional Banner" is used for promoting any current promotions that are happening on the website.
+    fields:
+      - name: text
+        type: string
+        example: "40% OFF ENTIRE WEBSITE"
+  table-section:
+    title: "Tables"
+    description: |
+      The "Tables" section is used for formatting data into an easily understood table.
+    fields:
+      - name: title
+        type: string
+        example: "Title"
+      - name: title-2
+        type: string
+        example: "Title"
+      - name: title-3
+        type: string
+        example: "Title"
+      - name: title-4
+        type: string
+        example: "Title"
+      - name: cell-1
+        type: string
+        example: "Cell data"
+      - name: cell-2
+        type: string
+        example: "Cell data"
+      - name: cell-3
+        type: string
+        example: "Cell data"
+      - name: cell-4
+        type: string
+        example: "Cell data"
+      - name: cell-1-2
+        type: string
+        example: "Cell data"
+      - name: cell-2-2
+        type: string
+        example: "Cell data"
+      - name: cell-3-2
+        type: string
+        example: "Cell data"
+      - name: cell-4-2
+        type: string
+        example: "Cell data"
+      - name: cell-1-3
+        type: string
+        example: "Cell data"
+      - name: cell-2-3
+        type: string
+        example: "Cell data"
+      - name: cell-3-3
+        type: string
+        example: "Cell data"
+      - name: cell-4-3
+        type: string
+        example: "Cell data"
+      - name: cell-1-4
+        type: string
+        example: "Cell data"
+      - name: cell-2-4
+        type: string
+        example: "Cell data"
+      - name: cell-3-4
+        type: string
+        example: "Cell data"
+      - name: cell-4-4
+        type: string
+        example: "Cell data"
+      - name: cell-1-5
+        type: string
+        example: "Cell data"
+      - name: cell-2-5
+        type: string
+        example: "Cell data"
+      - name: cell-3-5
+        type: string
+        example: "Cell data"
+      - name: cell-4-5
+        type: string
+        example: "Cell data"
+      - name: cell-1-6
+        type: string
+        example: "Cell data"
+      - name: cell-2-6
+        type: string
+        example: "Cell data"
+      - name: cell-3-6
+        type: string
+        example: "Cell data"
+      - name: cell-4-6
+        type: string
+        example: "Cell data"

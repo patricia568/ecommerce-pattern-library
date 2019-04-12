@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
+<div class="push">
+  {% pattern sections/promotional-banner text="BUY MORE, SAVE MORE" %}
+</div>
 <div class="wrapper grid">
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-    {% pattern banners/product-page-banner text="40% off Turntables" image="banner-2.jpg" %}
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 push gutter-1-4">
+    {% pattern banners/product-page-banner text="40% off Turntables" text-2="Let's Go!" image="banner-2.jpg" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern cards/shop image="polaroid.jpg" button_text="Take me there" button_url="/products/" %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+    {% pattern cards/shop image="record-player-square.jpg" button_text="Take me there" button_url="/products/" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    {% pattern cards/shop image="polaroid.jpg" button_text="Take me there" button_url="/products/" %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+    {% pattern cards/shop image="antique-camera-square.jpg" button_text="Take me there" button_url="/products/" %}
   </div>
-  <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com" class="unit xs-1 s-1 m-1 l-1 xl-1">
+  <form method="POST" action="https://formspree.io/dano0015@algonquinlive.com" class="unit xs-1 s-1 m-1 l-1 xl-1 gutter-1-4">
     <fieldset>
       <div class="push-1-2">
         {% pattern forms/sign-up-input button_text="Sign up" button_url="/electronics/" text="Sign up for emails" %}
