@@ -7,3 +7,7 @@ patterns:
     title: "Footer Navigation"
     description: |
       The "footer navigation" is used to direct the user to more informative pages within the website. This also includes external links to the brand's social media pages.
+    fields:
+      - name: url
+        type: url
+        example: "/privacy/"
