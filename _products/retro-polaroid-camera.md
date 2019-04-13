@@ -1,8 +1,8 @@
 ---
-name: "Retro Polaroid Camera"
+name: "Retro Radio"
 description: |
-  A retro style polaroid camera that can be used to take instant photos and make you look like the coolest person around while doing it.
-image: "/images/product-camera.jpg"
+  A retro style radio that can be used to play music from anywhere in your home and make you look so cool while doing it.
+image: "/images/product-radio.jpg"
 price: 115.00
 colors:
   - "Black"

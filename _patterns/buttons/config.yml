@@ -55,3 +55,11 @@ patterns:
       - name: text
         type: string
         example: "Submit"
+  cart:
+    title: "Cart"
+    description: |
+      The Cart icon link will send the user to the user's cart. This will be a summary of what they would like to purchase.
+    fields:
+      - name: url
+        type: url
+        example: "/checkout/"
