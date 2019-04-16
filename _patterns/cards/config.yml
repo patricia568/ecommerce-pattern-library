@@ -41,6 +41,9 @@ patterns:
       - name: button_url
         type: url
         example: "/products/"
+      - name: image-url
+        type: string
+        example: "/products/"
   similar-product:
     title: "Similar Products Card"
     description: |
@@ -54,4 +57,7 @@ patterns:
         example: "Shop"
       - name: button_url
         type: url
+        example: "/products/"
+      - name: image-url
+        type: string
         example: "/products/"
